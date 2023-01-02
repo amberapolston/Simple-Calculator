@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(215, 234, 234, 1);
+}
+
+body {
+    background-color: #d7eaea;
+    font-family: 'Oswald', sans-serif;
+}
+
+#display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 46px;
+    background-color: #9692af;
+    border-top: 1px solid #d7eaea;
+    border-right: 1px solid #d7eaea;
+    border-left: 1px solid #d7eaea;
+    color: white;
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 1px solid #d7eaea;
+    border-left: 1px solid #d7eaea;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > div {
+   border-top: 1px solid #d7eaea;
+   border-right: 1px solid #d7eaea; 
+}
+
+.button {
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 28px;
+    background-color: #69779b;
+    color: #d7eaea;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgba(215, 234, 234, 1);
+    transition: 0.6s ease-in-out;
+    color: #69779b;
+}
+
+#equal {
+    background-color: #9692af;
+    color: #d7eaea;
+}
+
+#equal:hover {
+    background-color: white;
+    color: #69779b;
+    transition: 0.6s ease-in-out;   
+}
